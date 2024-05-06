@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Add Cuisine</title>
+    <link rel="stylesheet" href="cuisine.css">
+
+    <link rel="stylesheet" href="genral.css">
+    <link rel="stylesheet" href="theme.css">
+</head>
+<body>
+
+    <header>
+        <div id="web">
+            <img src="Logo.png" alt="website logo" id="logo" width="85px" height="85px"><h2>WALEM</h2>
+        </div>
+        <div id="fnav">
+          <img src="moon.png" alt="dark" width="27em" height="27em" id ="icon">
+            <a href="index.html"  accesskey="h"  class="nav">Home</a>
+            <a href="Owner.html" accesskey="o" class="nav">Owner</a>
+            <a href="Walem_CustomerDashBoard.html" accesskey="c" class="nav">Customer</a>
+        </div>
+		
+    </header>
+	
+<main>
+	<ul class="breadcrumb">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="Owner.html" accesskey="o" class="nav">Owner</a></li>
+  <li><a href="AddCuisine.html">Add Cuisine</a></li>
+</ul>
+
+    <form id="F" action="#" method="POST">
+        <fieldset class="form">
+            <legend>Add Cuisine</legend>
+
+            <div class="cc">
+                <label for="meal-name">Meal Name:</label><br>
+                <input type="text" id="meal-name" class="shadow" name="meal-name" required>
+            </div>
+
+            <div class="cc" id="caldiv">
+                <label for="cal">Cal:</label><br>
+                <input type="text" id="cal"  class="shadow" name="cal-number" required>
+            </div>
+			
+            <div class="disimg">
+                <div class="description"><br>
+                    <label for="description">Description:</label><br>
+                    <textarea id="description" class="shadow" name="description" ></textarea>
+                </div>
+
+                <div class="meal-image"><br>
+                    <label for="meal-image">Meal Image:</label>
+<div id="image-preview"></div>
+<input type="file" id="meal-image" name="meal-image" accept="image/*" onchange="displayImagePreview(event)"></div>
+            </div>
+
+            <div id="pri">
+                <label for="price">Price:</label><br>
+                <input type="text" id="price" name="price"  class="shadow" required><br>
+            </div>
+
+            <div >
+			<button class="Add" type="submit" onclick="storeCuisineData()">Add Cuisine</button>
+            </div>
+        </fieldset>
+    </form>
+	</main>
+
+	<footer>
+	
+	<div id = "contact_us">
+	<h3>Contact Us</h3>
+	  <ul class="contact_Us_Links">
+        <li><a href="#"><img src="facebook.jpg" alt="fecebook"></a></li>
+        <li><a href="#"><img src=".wats.jpg" alt="watsapp"></a></li>
+        <li><a href="#"><img src="instgram.jpg" alt="Instgram"></a></li>
+    </ul>
+	</div>
+	<hr>
+<p><br><br>&#169; 2024 Walem</p>
+	</footer>
+	
+<script>
+    var icon = document.getElementById("icon");
+    var body = document.body;
+    var storedTheme = localStorage.getItem("theme");
+    if (storedTheme) {
+      body.classList.add(storedTheme);
+      if (storedTheme === "dark-theme") {
+        icon.src = "sun.png";
+      }
+    }
+var icon = document.getElementById("icon");
+icon.onclick= function(){
+document.body.classList.toggle("dark-theme");
+if (document.body.classList.contains("dark-theme")){
+icon.src="sun.png"
+ localStorage.setItem("theme", "dark-theme"); 
+}else{
+icon.src="moon.png";
+localStorage.setItem("theme", "");
+}
+
+}
+
+
+
+
+  function displayImagePreview(event) {
+    const file = event.target.files[0];
+
+    const reader = new FileReader();
+
+    reader.onload = function(e) {
+      const imgElement = document.createElement('img');
+
+      imgElement.src = e.target.result;
+      imgElement.style.height = '100%';
+	  
+
+
+      const imagePreviewDiv = document.getElementById('image-preview');
+      imagePreviewDiv.innerHTML = '';
+
+      imagePreviewDiv.appendChild(imgElement);
+    };
+
+    reader.readAsDataURL(file);
+  }
+</script>
+	 <script src="addCuisine.js">
+	 </script>
+</body>
+</html>

@@ -1,0 +1,212 @@
+
+@media only screen and (max-width: 991px) {
+    /* Adjust styles for smaller screens */
+    header div#web {
+		width:50%;
+    }
+	
+.nav {
+	
+    display: inline-block;
+	margin-top:2%;
+	
+}
+.breadcrumb{
+	
+	width:100%;
+	
+}
+
+header {
+    display: flex;
+	flex-direction:row;
+	
+	top:0;
+}
+#visionimg{
+	width:50%;
+	height:auto;
+	
+	
+}
+hr{
+	width:90%;
+}
+
+#text{text-align:center;}
+#text p{text-align: center;}
+ #vision {
+	 display:flex;
+	 flex-direction:column-reverse;
+	 justify-content:center;
+	 flex-grow:1 1 auto;
+	margin:20px;
+    border-radius: 10px;
+    padding: 20px; 
+    font-style: italic; 
+	text-align:center;
+	box-shadow: 4px 4px 4px rgba(0.1, 0.1, 0.1, 0.5);
+	
+}
+
+    header div {
+        flex-direction: row;
+    }
+
+
+    /* Adjust styles for the footer */
+    footer {
+        text-align: center;
+		width:100%;
+    }
+
+	
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    header div#web {
+		width:100%;
+		border-bottom: solid white 0.03em;
+        display: flex;
+        flex-direction: row;
+		justify-content:center;
+		padding-bottom:10px;
+    }
+	
+.nav {
+	margin-top:2%;
+	
+}
+#special_offers{
+	width:80%;
+	height:400px;
+	
+}
+#offers{
+	width: 90%;
+	height:90%;
+}
+.offer{
+	width:80%;
+	height:20em;
+	padding:8px;
+	
+}
+
+  .offer img {
+	 width:90%; 
+	 height:100%;
+border: 0px;
+background-color:white;
+    display: block; 
+    margin: 0 auto 7px ; 
+}
+
+  
+  .offer h3 {
+	  
+    margin-top: 0;
+	margin-bottom:10px;
+  }
+  
+
+  
+ #vision {
+	 
+	 display:flex;
+	 flex-direction:column-reverse;
+	margin:20px;
+    border-radius: 10px;
+    padding: 20px; 
+    font-style: italic; 
+	text-align:center;
+	box-shadow: 4px 4px 4px rgba(0.1, 0.1, 0.1, 0.5);
+	
+}
+header {
+    display: flex;
+	flex-direction:column;
+	height:15%;
+	
+	top:0;
+}
+
+    header div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    /* Adjust styles for the footer */
+    footer {
+        text-align: center;
+		
+		width:100%;
+    }
+	#scr{
+		width:90%;
+		
+	}
+	#reviews{
+		
+		width:90%;
+		
+	}
+	.review{
+		width:70%;
+		
+		height:auto;
+		
+		
+	}
+	
+.review_content p {
+	text-align:left;
+	width:100%;
+	font-size:12px;
+	
+		height:100%;
+}
+.review_content {
+	display:flex;
+	flex-direction:column;
+	width:79%;
+	height:100%;
+	max-height:auto;
+	align-items:flex-start;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    margin: 20px; 
+		box-shadow: 4px 4px 4px rgba(0.1, 0.1, 0.1, 0.5);
+
+}
+
+.reviewer_info {
+    align-items: center;
+	font-size:15px;
+}
+
+
+
+.customer_photo img {
+	margin-top:12px;
+    width: 6em;
+    height: 6em;
+}
+
+
+.review_content .rating{
+	display:flex;
+	flex-direction:row-reverse;
+	
+	align-items:flex-start;
+	width:70%;
+	align-items:left;
+	
+}
+
+}

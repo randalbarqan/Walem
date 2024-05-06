@@ -1,0 +1,122 @@
+
+
+#categorys {
+  border-radius:10px;
+	padding:10px;
+  gap: 20px;
+  width: 90%;
+  margin: 30px auto;
+  
+    border: 1px solid var(--third-color);
+	background-color: var(--secondry-color);
+    box-shadow: 4px 4px 7px rgba(0.1, 0.1, 0.1, 0.5);
+
+}
+.style{
+	
+    border: 1px solid var(--third-color);
+	background-color: var(--secondry-color);
+width:100%;
+border-radius:20px;
+padding-right:25px;
+padding-top:1%;
+}
+#page_title{
+color: #4d004d;
+	margin-left:55px;
+	
+}
+        .meals{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 15px;
+        }
+		
+		.category{
+			
+    border: solid  var(--primary-color);
+border-radius:20px;
+  width:98%;
+  
+background-color:var(--primary-color);
+			display:flex;
+			flex-direction:row;
+			padding:10px;
+			margin:10px 0px;
+			
+		}
+.meal-details{
+	background-color:blue;
+	display:flex;
+	flex-direction:row;
+	width:auto;
+}
+
+.content{
+width:auto;
+
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	background-color:red;
+}
+
+
+main h2{
+	margin-left:15px;
+	margin-top:30px;
+}
+
+#myCheckbox{
+	
+}
+
+.category ul{
+	
+  list-style: none;
+}
+
+
+#sorting{
+	
+	max-height:20px;
+	float:right;
+}
+
+
+#categorys img {
+	padding:3px;
+	
+	border-radius:10px;
+    box-shadow: 3px 3px 8px rgba(0.1, 0.1, 0.1, 0.5);
+   	background-color:var(--line-color);
+    }
+
+.name{width:45%;}
+
+
+
+#cart{
+	   position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+
+
+
+main h2,main h3
+{
+
+	color:var(--forth-color);}
+
+
+main p{
+	
+	
+	color:var(--fifth-color);
+	
+}
+

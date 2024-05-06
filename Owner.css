@@ -1,0 +1,177 @@
+
+
+
+
+
+
+
+
+
+
+
+
+#scr{
+	margin:10px 20px;
+	background-color: var(--secondry-color);
+	align-items:center;
+    box-shadow: 4px 4px 4px rgba(0.1, 0.1, 0.1, 0.5);
+	padding:10px;
+	border-radius: 40px;
+	
+    border: 1px solid var(--third-color);
+	
+}
+
+
+
+  #head_for_meals {
+	margin-top: 20px;
+	margin-bottom:10px;
+	text-align:center;
+	font-weight:bold;
+	color: var(--forth-color);
+	
+	
+  }
+  
+  
+hr {
+    width: 700px; 
+    margin:auto; 
+}
+
+
+.meals {
+    text-align: center; 
+	margin:30px 90px;
+	 justify-content: center;
+}
+
+
+#meals-content {
+	
+	border-radius: 40px;
+	width:90%;
+    display: inline-block;
+	margin-bottom:20px;
+	overflow-x: auto;
+	justify-content: center;
+	white-space: nowrap; 
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+	padding:10px;
+	background-color: var(--secondry-color);
+}
+
+.meal {
+	
+    margin-right: 20px;
+	
+    border-radius: 5px;
+    overflow: hidden;
+    width: 220px;
+    height: 370px;
+	max-height:370px;
+    display: inline-block;
+    white-space: normal; 
+    text-align:center;
+	align-items:center;
+	align-content:center;
+background-color:var(--primary-color);
+	box-shadow: 4px 4px 4px rgba(0.1, 0.1, 0.1, 0.5);
+    
+}
+.content{
+	margin:15px;
+	
+	color:var(--sixth-color);
+}
+
+.content h3{
+	margin:15px;
+	
+	color:var(--forth-color);
+}
+
+
+.add-btn {
+	
+    text-decoration: none;
+	font-family:Georgia;
+	padding: 5px 15px;
+	color: var(--forth-color);
+	
+background-color:var(--primary-color);
+	border: none ;
+	
+	border-color:var(--eaiteth-color);
+	border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.add-btn:hover {
+    background-color: var(--fifth-color); 
+    color: var(--third-color); 
+border-color: #A9A9A9; }
+
+#add-btn {
+	margin-bottom:20px;
+}
+
+.addDele {
+	
+    text-decoration: none;
+	font-family:Georgia;
+	padding: 5px 15px;
+	
+	color: var(--forth-color);
+background-color:var(--primary-color);
+	border: none ;
+	
+	border-color:var(--eaiteth-color);
+	border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	float:left;
+	margin:10px 20px;
+}
+
+.addDele:hover {
+    background-color: var(--fifth-color); 
+    color: var(--third-color); 
+border-color: #A9A9A9; }
+
+
+
+#form{
+	color:#550080;
+	border-radius: 40px;
+    margin: 40px auto;
+    padding: 20px;
+    border: solid  ;
+	
+    border: 1px solid var(--third-color);
+	background-color: var(--secondry-color);
+	width:1000px;
+	max-width:1000px;
+    box-shadow: 4px 4px 4px rgba(0.1, 0.1, 0.1, 0.5);
+}
+legend{margin-left:20px;
+font-size:1.5em;
+
+	color: var(--forth-color);
+}
+
+
+hr {
+	
+  border-color: pink;
+    width: 100%; 
+    margin:auto; 
+}
+
+
+main img{
+	border-radius:10px;
+    box-shadow: 3px 3px 8px rgba(0.1, 0.1, 0.1, 0.5);
+	max-height:150px;
+	max-width:150px;
+}

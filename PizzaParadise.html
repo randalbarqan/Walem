@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Pizza Paradise</title>
+    <link rel="stylesheet" href="RestAndEval.css" />
+	
+    <link rel="stylesheet" href="genral.css">
+    <link rel="stylesheet" href="theme.css">
+	
+</head>
+
+<body>
+    <header>
+        <div id="web">
+            <img src="Logo.png" alt="website logo" id="logo" width="85px" height="85px" />
+            <h2>WALEM</h2>
+        </div>
+        <div id="fnav">
+          <img src="moon.png" alt="dark" width="27em" height="27em" id ="icon">
+            <a href="index.html" accesskey="h" class="nav">Home</a>
+            <a href="Owner.html" accesskey="o" class="nav">Owner</a>
+            <a href="Walem_CustomerDashBoard.html" accesskey="c" class="nav">Customer</a>
+        </div>
+    </header>
+
+    <main>
+        <ul class="breadcrumb">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Walem_CustomerDashBoard.html">Customer Dashboard</a></li>
+            <li><a href="PizzaParadise.html">Pizza Paradise</a></li>
+        </ul>
+
+        <div id="page_title">
+            <h2>Pizza Paradise</h2>
+        </div>
+
+        <div>
+            <div id="categorys">
+                <div id="sorting">
+                    <label for="sort-by">Sort by</label>
+                    <select id="sort-by">
+                        <option></option>
+                        <optgroup  id="price" "label="price" class="price">
+                            <option>High to Low</option>
+                            <option>Low to High</option>
+                        </optgroup>
+                        <optgroup label="cuisinename" id="name" class="name">
+                            <option>A-Z</option>
+                            <option>Z-A</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <div class="catediv" id="products">
+                    <h2>Pizza</h2>
+
+                    <div class="category" id="category_Pizza">
+                        <div class="style">
+                            <ul>
+                                <li class="shadow">
+                                    <div class="meals">
+                                        <input type="checkbox" id="myCheckbox" />
+                                        <img src="margreta.jpg" width="120px" height="120px" alt="margreta" />
+                                        <div class="name">
+                                            <h3>Classic Margherita</h3>
+                                            <p class="description">Handcrafted pizza base topped with mozzarella cheese and a mixed tomato sauce</p>
+                                        </div>
+                                        <div class="cal">
+                                            <p>720cal</p>
+                                        </div>
+                                        <div class="price">
+                                            <p class="pricee">35SAR</p>
+                                        </div>
+                                        <div class="count">
+                                            <div class="meal-controls">
+                                                <button class="quantity-decrement">-</button>
+                                                <input type="number" value="1" min="1" style="width: 20px" readonly>
+                                                <button class="quantity-increment">+</button>
+                                                <button class="delete-meal">Add to cart</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </li>
+
+                                <li class="shadow">
+                                    <div class="meals">
+                                        <input type="checkbox" class="myCheckbox" />
+                                        <img src="chickenpizza.jpg" width="120px" height="120px" alt="chickenpizza" />
+                                        <div class="name">
+                                            <h3>Grill Chicken Pizza</h3>
+                                            <p class="description">Grass-fed Grilled Chicken breast, green capsicum onions, and cheese</p>
+                                        </div>
+                                        <div class="cal">
+                                            <p>1003cal</p>
+                                        </div>
+                                        <div class="price">
+                                            <p class="pricee">45SAR</p>
+                                        </div>
+                                        <div class="count">
+                                            <div class="meal-controls">
+                                                <button class="quantity-decrement">-</button>
+                                                <input type="number" value="1" min="1" style="width: 20px" readonly>
+                                                <button class="quantity-increment">+</button>
+                                                <button class="delete-meal">Add to cart</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <h2>Sides</h2>
+
+                    <div class="category" id="category_Sides">
+                        <div class="style">
+                            <ul>
+                                <li class="shadow">
+                                    <div class="meals">
+                                        <input type="checkbox" class="myCheckbox" />
+                                        <img src="wings.jpg" width="120px" height="120px" alt="wings" />
+                                        <div class="name">
+                                            <h3>Chipotle Chicken Wings</h3>
+                                            <p class="description">Chicken Wings tossed in Chipotle sauce</p>
+                                        </div>
+                                        <div class="cal">
+                                            <p>500cal</p>
+                                        </div>
+                                        <div class="price">
+                                            <p class="pricee">22SAR</p>
+                                        </div>
+                                        <div class="count">
+                                            <div class="meal-controls">
+                                                <button class="quantity-decrement">-</button>
+                                                <input readonly type="number" value="1" min="1" style="width: 20px">
+                                                <button class="quantity-increment">+</button>
+                                                <button class="delete-meal">Add to cart</button>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </li>
+
+                                <li class="shadow">
+                                    <div class="meals">
+                                        <input type="checkbox" class="myCheckbox" />
+                                        <img src="wedges.jpg" width="120px" height="120px" alt="wedges" />
+                                        <div class="name">
+                                            <h3>Potato Wedges</h3>
+                                            <p class="description">Crunchy & bursting with subtle flavors, perfect for any time binge! Served with a mint mayo dip</p>
+                                        </div>
+                                        <div class="cal">
+                                            <p>509cal</p>
+                                        </div>
+                                        <div class="price">
+                                            <p class="pricee">17SAR</p>
+                                        </div>
+                                        <div class="count">
+                                            <div class="meal-controls">
+                                                <button class="quantity-decrement">-</button>
+                                                <input readonly type="number" value="1" min="1" style="width: 20px">
+                                                <button class="quantity-increment">+</button>
+                                                <button class="delete-meal">Add to cart</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <h2>Drinks</h2>
+                    <div class="category" id="category_Drinks">
+                        <div class="style">
+                            <ul>
+                                <li class="shadow">
+                                    <div class="meals">
+                                        <input type="checkbox" class="myCheckbox" />
+                                        <img src="juice.jpg" width="120px" height="120px" alt="juice" />
+                                        <div class="name">
+                                            <h3>Tropical Acai Blend</h3>
+                                            <p class="description">Vegan and gluten-free, Acai + Blueberry + Mango + Banana + Apple</p>
+                                        </div>
+                                        <div class="cal">
+                                            <p>112cal</p>
+                                        </div>
+                                        <div class="price">
+                                            <p class="pricee">22SAR</p>
+                                        </div>
+                                        <div class="count">
+                                            <div class="meal-controls">
+                                                <button class="quantity-decrement">-</button>
+                                                <input readonly type="number" value="1" min="1" style="width: 20px">
+                                                <button class="quantity-increment">+</button>
+                                                <button class="delete-meal">Add to cart</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="cart">
+            <a href="cart.html"><img src="cart.png" alt="cart" width="100px" height="100px" /></a>
+        </div>
+    </main>
+
+    <footer>
+        <div id="contact_us">
+            <h3>Contact Us</h3>
+            <ul class="contact_Us_Links">
+                <li>
+                    <a href="#"><img src="facebook.jpg" alt="facebook" /></a>
+                </li>
+                <li>
+                    <a href="#"><img src="wats.jpg" alt="whatsapp" /></a>
+                </li>
+                <li>
+                    <a href="#"><img src="instgram.jpg" alt="Instagram" /></a>
+                </li>
+            </ul>
+        </div>
+        <hr />
+        <p><br />&#169; 2024 Walem</p>
+    </footer>
+	
+<script>
+
+        var icon = document.getElementById("icon");
+    var body = document.body;
+    var storedTheme = localStorage.getItem("theme");
+    if (storedTheme) {
+      body.classList.add(storedTheme);
+      if (storedTheme === "dark-theme") {
+        icon.src = "../homeAndCustomer/sun.png";
+      }
+    }
+var icon = document.getElementById("icon");
+icon.onclick= function(){
+document.body.classList.toggle("dark-theme");
+if (document.body.classList.contains("dark-theme")){
+icon.src="../homeAndCustomer/sun.png"
+ localStorage.setItem("theme", "dark-theme"); 
+}else{
+icon.src="../homeAndCustomer/moon.png";
+localStorage.setItem("theme", "");
+}
+
+}
+
+</script>
+    <script src="js.js"></script>
+
+</body>
+
+</html>

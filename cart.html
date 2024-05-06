@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Cart</title>
+	
+    <link rel="stylesheet" href="genral.css">
+    <link rel="stylesheet" href="theme.css">
+    <link rel="stylesheet" href="cssCart.css">
+</head>
+
+<body>
+    <header>
+        <div id="web">
+            <img src="Logo.png" alt="website logo" id="logo" width="85px" height="85px">
+            <h2>WALEM</h2>
+        </div>
+        <div id="fnav">
+          <img src="moon.png" alt="dark" width="27em" height="27em" id ="icon">
+            <a href="index.html" accesskey="h" class="nav">Home</a>
+            <a href="Owner.html" accesskey="o" class="nav">Owner</a>
+            <a href="Walem_CustomerDashBoard.html" accesskey="c" class="nav">Customer</a>
+        </div>
+    </header>
+
+    <main>
+        <ul class="breadcrumb">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="PizzaParadise.html">Pizza Paradise</a></li>
+            <li><a href="cart.html">Cart</a></li>
+        </ul>
+
+        <div>
+            <h2 class="cart-header">My Cart</h2>
+            <div class="cart-content">
+                <div class="meals clearfix cart-meals">
+                    <div class="meals-content">
+                    </div>
+                </div>
+                <div class="payment">
+                    <h3>Total Payment</h3>
+                    <div class="payment-details">
+                        <div class="details-line">
+                            <p>Subtotal</p>
+                            <p id="Subtotal"></p>
+                        </div>
+                        <div class="details-line">
+                            <p>Delivery</p>
+                            <p id="Delivery_price"></p>
+                        </div>
+                        <hr class="hr1">
+                        <div class="details-line">
+                            <p>Total</p>
+                            <p id="Total"></p>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="restaurantEvaluation.html" class="checkout-btn">Checkout</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div id="contact_us">
+            <h3>Contact Us</h3>
+            <ul class="contact_Us_Links">
+                <li>
+                    <a href="#"><img src="facebook.jpg" alt="fecebook"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="wats.jpg" alt="watsapp"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="instgram.jpg" alt="Instgram"></a>
+                </li>
+            </ul>
+        </div>
+        <hr>
+        <p><br>&#169; 2024 Walem</p>
+    </footer>
+
+<script>
+    var icon = document.getElementById("icon");
+    var body = document.body;
+    var storedTheme = localStorage.getItem("theme");
+    if (storedTheme) {
+      body.classList.add(storedTheme);
+      if (storedTheme === "dark-theme") {
+        icon.src = "sun.png";
+      }
+    }
+var icon = document.getElementById("icon");
+icon.onclick= function(){
+document.body.classList.toggle("dark-theme");
+if (document.body.classList.contains("dark-theme")){
+icon.src="sun.png"
+ localStorage.setItem("theme", "dark-theme"); 
+}else{
+icon.src="moon.png";
+localStorage.setItem("theme", "");
+}
+
+}
+
+
+</script>
+    <script src="cart.js">
+    </script>
+
+
+</body>
+
+</html>

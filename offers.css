@@ -1,0 +1,201 @@
+
+
+.form{
+	color:#550080;
+	border-radius: 40px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid var(--third-color);
+	background-color: var(--secondry-color);
+	width:1000px;
+	max-width:1000px;
+    box-shadow: 4px 4px 4px rgba(0.1, 0.1, 0.1, 0.5);
+}
+legend{margin-left:20px;
+font-size:1.5em;
+
+	color: var(--forth-color);
+}
+
+.disimg {
+    display: flex;
+	margin-left:20px;
+    margin-bottom: 10px;
+}
+
+#description {
+	width:540px;
+	max-width:540px;
+	height:200px;
+    margin-right: 15px;
+}
+
+#image-preview {
+	background-color:white;
+	margin-right:15px;
+    height: 200px;
+	border-radius: 10px;
+    border: solid   #fffcf0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    
+}
+
+#pri {
+	
+	margin-left:20px;
+	margin-bottom:50px;
+}
+
+.Add{
+	font-family:Georgia;
+	padding: 5px 15px;
+	
+	color: var(--forth-color);
+	
+background-color:var(--primary-color);
+	border: none ;
+	
+	border-color:var(--eaiteth-color);
+	border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	float:right;
+	margin-right:20px;
+	margin-top:20px;
+}
+
+
+
+.offer-image{
+	position:relative;
+
+}
+
+#offer-image{
+	margin-left:150px;
+}
+
+
+.shadow {
+	
+	padding: 5px;
+	background-color:var(--light-color);
+    border: solid  var(--line-color);
+	border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+label{
+	
+	
+	color: var(--forth-color);
+}
+
+  #delete-offers-form li {
+	  margin-bottom:15px;
+	  margin-right:20px;
+      display: flex;
+      align-items: center;
+	  
+    }
+    .label-description {
+      margin-left: 10px;
+	  margin-right:20px;
+    }
+	
+
+  #delete-offers-form hr {
+	  
+	  margin:	15px auto;
+		width:900px;
+	  
+  }
+  
+  
+  #delete-offers-form img {
+	  
+    border: 3px solid  #fffcf0;
+	
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  #DO{
+	  margin: 10px auto;
+	  max-height:400px;
+	  overflow-y:scroll;
+  }
+	  
+#delete-offers:hover {
+    background-color: var(--fifth-color); 
+    color: var(--third-color); 
+border-color: #A9A9A9; }
+
+#delete-offers{
+	margin-left:40px;
+	
+	color: var(--forth-color);
+	
+background-color:var(--primary-color);
+	border: none ;
+	
+	border-color:var(--eaiteth-color);
+	font-family:Georgia;
+	padding: 5px 15px;
+	border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	
+}
+
+#OT{
+	
+	margin-left:20px;
+}
+#offer-title{
+	width:540px;
+}
+
+
+
+
+.offer-item {
+    border: solid ;
+    border-radius: 12px;
+	
+	color: var(--forth-color);
+	
+background-color:var(--primary-color);
+	border: none ;
+	
+	border-color:var(--eaiteth-color);
+    padding: 5px;
+    margin-bottom: 20px;
+	 box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.offer-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.offer-description {
+	    margin-bottom: 20px;
+		
+	color :var(--fifth-color);
+	
+
+}
+
+
+.offer-image1 {
+	width:12%;
+	height:12%;
+	margin-right: 10%;
+    margin:5%;
+	padding:3px;
+	border-radius:10px;
+    box-shadow: 3px 3px 8px rgba(0.1, 0.1, 0.1, 0.5);
+	
+
+}
+.textcontainer {
+    display: flex;
+    flex-direction: column;
+}
